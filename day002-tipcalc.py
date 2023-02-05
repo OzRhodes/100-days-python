@@ -13,3 +13,4 @@ while tip_percent not in [10,12,15]:
 calc = total_bill * (1+(tip_percent/100))/payers
 
 print(f"The total each person will pay is $ {calc:.2f}")
+print(f"The total each person will pay is $ {calc:.2f}") 
