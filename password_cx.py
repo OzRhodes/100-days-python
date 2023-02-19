@@ -1,5 +1,5 @@
 import getpass
-# normally these details are hashed and stored in a dbm or alternatve file
+# normally these details are hashed and stored in a dbm or alternatve file 
 database = {"Tom": "123456", "Dick": "654321"}
 username = input("Enter Your Username : ")
 password = getpass.getpass("Enter Your Password : ")
